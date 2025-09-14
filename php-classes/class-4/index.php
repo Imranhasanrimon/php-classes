@@ -1,8 +1,8 @@
 <?php
 
-$name = "rimon";
+$name = "imran";
 
-printf('hellow %s', $name)
+printf('[%3s]', $name)
 
 
 //declaring php variable and using this
