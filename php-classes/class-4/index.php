@@ -2,7 +2,7 @@
 
 $name = "imran";
 
-printf('[%3s]', $name)
+printf('[%s]', $name)
 
 
 ?>
