@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,4 +24,12 @@
         </select>
     </form>
 </body>
-</html>
+</html> -->
+
+<?php
+$count = 1;
+do{
+    echo $count."<br>";
+    $count++;
+}while($count<5)
+?>
