@@ -27,9 +27,20 @@
 </html> -->
 
 <?php
-$count = 1;
-do{
-    echo $count."<br>";
-    $count++;
-}while($count<5)
+// $count = 1;
+// do{
+//     echo $count."<br>";
+//     $count++;
+// }while($count<5)
+
+
+for($iterate = 1; $iterate<=10; $iterate ++){
+    ?>
+
+    <li> <?php echo"Imran $iterate" ?></li>
+    <?php
+    if($iterate == 2){
+        break;
+    }
+}
 ?>
